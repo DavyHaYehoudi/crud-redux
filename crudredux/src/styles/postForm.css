@@ -1,0 +1,25 @@
+
+.form-container {
+    border: 1px solid #292929;
+    margin: 20px 0 10px;
+    width: 50%;
+    max-width: 500px;
+}
+  
+.form-container  form {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+  
+.form-container input,textarea {
+    border: 1px solid rgb(168, 168, 168);
+    font-family: "Amiri", serif;
+    padding: 5px 10px;
+    resize: none;
+}
+  
+.form-container input[type="text"],textarea {
+    margin-bottom: 6px;
+    height: 80px;
+}

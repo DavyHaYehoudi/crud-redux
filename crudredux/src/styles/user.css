@@ -1,0 +1,28 @@
+
+.user-container {
+    margin-left: 10px;
+    position: relative;
+}
+  
+.user {
+    border: 1px solid #292929;
+    text-align: center;
+    position: fixed;
+    width: 190px;
+    padding: 16px;
+}
+  
+.user-container h3 {
+    font-size: 1.3rem;
+}
+  
+.user-container img {
+    border-radius: 150px;
+    height: 70px;
+    object-fit: cover;
+    margin: 10px 0 8px;
+}
+  
+.user-container p {
+    font-size: 1.2rem;
+}
