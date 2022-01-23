@@ -22,32 +22,11 @@
       "id": "3"
     },
     {
-      "title": "hello",
-      "content": "coucou",
-      "author": "user42",
-      "likes": 0,
-      "id": "0DC0vo4"
-    },
-    {
-      "title": "test",
-      "content": "test",
+      "title": "titre 1",
+      "content": "",
       "author": "Davy",
       "likes": 0,
-      "id": "oahz4ym"
-    },
-    {
-      "title": "test2",
-      "content": "test2",
-      "author": "Davy",
-      "likes": 0,
-      "id": "ame7Gie"
-    },
-    {
-      "title": "test3",
-      "content": "test3",
-      "author": "Davy",
-      "likes": 0,
-      "id": "ObMAik9"
+      "id": "C6lgUtm"
     }
   ],
   "users": [

@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { addPosts, ADD_POSTS } from "../actions/post.action";
+import { addPosts } from "../actions/post.action";
 import '../styles/postForm.css'
 
 const PostForm = () => {
 const [title, setTitle] = useState('');
-const [content, setcontent] = useState('');
+const [content, setContent] = useState('');
 const user = useSelector(state=>state.userReducer);
 const dispatch = useDispatch()
 
@@ -21,7 +21,7 @@ const handleForm = e =>{
   
   dispatch(addPosts(data))
   setTitle('')
-  setcontent('')
+  setContent('')
 }
 
 
@@ -36,7 +36,7 @@ const handleForm = e =>{
         <textarea
          placeholder="Postez vos pensées..."
          value={content}
-         onChange={e =>setcontent(e.target.value)}></textarea>
+         onChange={e =>setContent(e.target.value)}></textarea>
         <input type="submit" value="Envoyer" />
       </form>
     </div>

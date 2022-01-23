@@ -11,7 +11,7 @@ export const getUsers =()=>{
                         type: "GET_USERS",
                         payload: res.data
                     })
-                .catch(err=> console.log(err))
                 })
+                .catch(err=> console.log(err))
     }
 }

@@ -2,6 +2,9 @@ import React from "react";
 import '../styles/user.css'
 
 const User = ({user}) => {
+
+  
+
   return (
     <div className="user-container">
       <div className="user">
